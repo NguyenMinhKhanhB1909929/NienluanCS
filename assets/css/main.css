@@ -387,6 +387,14 @@
 
 } 
 
+.auth-form__group.invalid .auth-form__input {
+    border-color: #f33a58;
+  }
+  
+  .auth-form__group.invalid .form-message {
+    color: #f33a58;
+  }
+
 .auth-form__input {
     width: 100%;
     height: 40px;
