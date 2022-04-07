@@ -1,0 +1,33 @@
+.ordered__success {
+  text-align: center;
+}
+.ordered__success-icon-wrap {
+}
+.ordered__success-icon {
+  font-size: 8rem;
+  color: #57d17c;
+  z-index: 100;
+  margin: 32px 0 12px;
+}
+.ordered__success-titile {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 500;
+}
+.ordered__success-id {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #555;
+}
+.ordered__success-table {
+}
+.ordered__success-table-title {
+}
+.ordered__success-table-title-time {
+}
+.ordered__success-table-title-name {
+}
+.ordered__success-table-title-quantity {
+}
+.ordered__success-table-title-price {
+}

@@ -1,0 +1,127 @@
+.user-information-wrap {
+  display: flex;
+  margin-top: 32px;
+}
+.user__info {
+  width: 50%;
+  border: 1px solid #000;
+  margin-right: 8px;
+}
+.note-and-payment {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.user-note {
+  height: 150px;
+  border: 1px solid #000;
+
+  margin-bottom: 8px;
+}
+.user-payment {
+  height: 150px;
+  border: 1px solid #000;
+}
+.payment-btn-wrap {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.payment-btn {
+  background-color: var(--primary-color);
+  height: 40px;
+  width: 190px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+.user-information-wrap {
+}
+.user__info {
+}
+.user__infor-titile {
+}
+.user__infor-name,
+.user__infor-email,
+.user__infor-phone,
+.user__infor-address {
+  display: flex;
+  align-items: center;
+  margin: 8px 12px 8px 12px;
+}
+.user__infor-name-label,
+.user__infor-email-label,
+.user__infor-phone-label,
+.user__infor-address-label,
+.user__infor-address-select-label {
+  min-width: 18%;
+  font-size: 1.6rem;
+}
+.user__infor-name-input,
+.user__infor-email-input,
+.user__infor-phone-input,
+.user__infor-address-input,
+.user__infor-address-select-input {
+  flex: 1;
+  padding: 4px 8px;
+  font-size: 1.6rem;
+}
+.user__infor-email {
+}
+.user__infor-email-label {
+}
+.user__infor-email-input {
+}
+.user__infor-phone {
+}
+.user__infor-phone-label {
+}
+.user__infor-phone-input {
+}
+.user__infor-address {
+}
+.user__infor-address-label {
+}
+.user__infor-address-input {
+}
+.user__infor-address-select {
+}
+.user__infor-address-wrap {
+  display: flex;
+  align-items: center;
+  margin: 8px 12px 8px 12px;
+}
+.user__infor-address-wrap-label {
+  width: 18%;
+  font-size: 1.6rem;
+}
+.user__infor-address-select1,
+.user__infor-address-select2,
+.user__infor-address-select3 {
+  flex: 1;
+  padding: 4px 8px;
+  padding: 4px 0;
+  font-size: 1.6rem;
+}
+.user__infor-address-option {
+  padding: 4px 8px;
+  font-size: 1.6rem;
+}
+.user__infor-address-select2 {
+}
+.user__infor-address-select3 {
+}
+.user__infor-note {
+}
+.user__infor-note-label {
+}
+.note-and-payment {
+}
+.user-note {
+}
+.user-payment {
+}

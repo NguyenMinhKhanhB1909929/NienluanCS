@@ -1,0 +1,17 @@
+.ordered__success {
+  text-align: center;
+}
+.ordered__success-icon-wrap {
+  display: inline-block;
+  background-color: #a8ccb3;
+}
+.ordered__success-icon {
+  font-size: 8rem;
+  color: #4ebd6f;
+}
+.ordered__success-titile {
+}
+.ordered__success-id {
+}
+.ordered__success-icon.fas.fa-check-circle {
+}

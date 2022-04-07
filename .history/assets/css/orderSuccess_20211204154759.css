@@ -1,0 +1,19 @@
+.ordered__success {
+  text-align: center;
+}
+.ordered__success-icon-wrap {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 100rem;
+}
+.ordered__success-icon {
+  font-size: 8rem;
+  color: #57d17c;
+  z-index: 100;
+}
+.ordered__success-titile {
+}
+.ordered__success-id {
+}
+.ordered__success-icon.fas.fa-check-circle {
+}
