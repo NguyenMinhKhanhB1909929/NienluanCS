@@ -1,11 +1,11 @@
-<?php include "./adminInclude/adminHeader.php"; ?>
-<?php include "../../classes/category.php"; ?>
-<?php include "../../classes/product.php"; ?>
+<?php include_once "./adminInclude/adminHeader.php"; ?>
+<?php include_once "../../classes/category.php"; ?>
+<?php include_once "../../classes/product.php"; ?>
 <?php
     $pd = new product();
-    if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
-
-        $insertProduct = $pd->insert_product($_POST,$_FILES);
+    if(isset($_GET['productId'])) {
+      $productId = $_GET['productId'];
+      $del_product = $pd->delete_product($productId);
     }
 ?>
         <!-- /top navigation -->
@@ -183,7 +183,7 @@
                                       style="font-size: 20px; color: red"
                                     ></i>
                                   </a>
-                                  <a href="./ListItem.php?productId=" onclick="return alert('Ban co chac muon xoa san pham nay khong?');">
+                                  <a href="./ListItem.php?productId=<?php echo $result['productId'];?>" onclick="return alert('Ban co chac muon xoa san pham nay khong?');">
                                     <i
                                       class="fa fa-close"
                                       style="font-size: 20px; color: red"

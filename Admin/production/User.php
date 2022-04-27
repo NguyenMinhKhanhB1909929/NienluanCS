@@ -1,4 +1,4 @@
-<?php include "./adminInclude/adminHeader.php"; ?>
+<?php include_once "./adminInclude/adminHeader.php"; ?>
         <!-- /top navigation -->
 
         <!-- page content -->
@@ -160,4 +160,4 @@
         <!-- /page content -->
 
         <!-- footer content -->
-  <?php include "./adminInclude/adminFooter.php"; ?>
+  <?php include_once "./adminInclude/adminFooter.php"; ?>

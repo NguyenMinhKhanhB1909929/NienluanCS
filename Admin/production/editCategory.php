@@ -1,5 +1,5 @@
-<?php include "./adminInclude/adminHeader.php"; ?>
-<?php include "../../classes/category.php"; ?>
+<?php include_once "./adminInclude/adminHeader.php"; ?>
+<?php include_once "../../classes/category.php"; ?>
 <?php
   $cat = new category();
   if(!isset($_GET['catId']) || $_GET['catId']==NULL) {

@@ -1,6 +1,6 @@
-<?php include "./adminInclude/adminHeader.php"; ?>
-<?php include "../../classes/category.php"; ?>
-<?php include "../../classes/product.php"; ?>
+<?php include_once "./adminInclude/adminHeader.php"; ?>
+<?php include_once "../../classes/category.php"; ?>
+<?php include_once "../../classes/product.php"; ?>
 <?php
     $pd = new product();
     if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {

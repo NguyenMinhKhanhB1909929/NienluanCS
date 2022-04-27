@@ -1,4 +1,4 @@
-<?php include "./adminInclude/adminHeader.php"; ?>
+<?php include_once "./adminInclude/adminHeader.php"; ?>
         <!-- /top navigation -->
 <style>
       .tile_count .tile_stats_count {
